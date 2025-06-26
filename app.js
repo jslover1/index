@@ -323,6 +323,7 @@ document.getElementById("play-button").addEventListener("click", () => {
     imgs.forEach((img) => {
         img.style.display = "";
     });
+    snake.direction = { x: 0, y: 1 };
 });
 
 const animate = () => {
